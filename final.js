@@ -1,13 +1,13 @@
 /** Problem -01 ( Divide the Asset ) */
 var area = 800;
-//my code id written here
+//Programme for Problem -01
 var result = area / 2;
 console.log(result);
 
 
 /** Problem -02 ( Cycle or Laptop ) */
 var money = 10000;
-//my code id written here
+//Programme for Problem -02
 if (money >= 25000) {
     console.log("Laptop");
 
@@ -22,7 +22,7 @@ if (money >= 25000) {
 
 /** Problem -03 ( Medicine Planner ) */
 var lastDay = 11;
-//my code id written here
+//Programme for Problem -03
 if (lastDay >= 3 && lastDay <= 30) {
     for (var i = 1; i <= lastDay; i++) {
         if (i % 3 === 0) {
@@ -38,8 +38,8 @@ if (lastDay >= 3 && lastDay <= 30) {
 
 
 /** Problem 04 - (Delete / Store) */
-var fileName = "#pdfData.jpg";
-//my code id written here
+var fileName = "pdfData.jpg";
+//Programme for Problem -04
 if (fileName.includes(".pdf") || fileName.includes(".docx") || fileName[0] === "#") {
     console.log("Store");
 
@@ -51,7 +51,7 @@ if (fileName.includes(".pdf") || fileName.includes(".docx") || fileName[0] === "
 
 /** Problem 05 - ( PH Email Generator )  */
 var student = { name: "jhankar", roll: 1014, department: "cse" };
-//my code id written here
+//Programme for Problem -05
 var email = student.name + student.roll + "." + student.department + "@ph.ac.bd"
 console.log(email);
 
@@ -59,7 +59,7 @@ console.log(email);
 /** Problem 06 :  (Current Salary )  */
 var experience = 30;
 var startingSalary = 45000;
-//my code id written here
+//Programme for Problem -06
 if (startingSalary > 0 && startingSalary <= 10000000 && experience > 0 && experience <= 50) {
     var currentSalary = startingSalary
     for (var i = 1; i <= experience; i++) {
